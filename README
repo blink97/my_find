@@ -1,0 +1,24 @@
+AUTHORS : Etienne GANDILHON (gandil_e)
+
+Project :
+  This project is a simplify version of the shell function "find"
+
+Features:
+  This project contains the following features :
+    - print the file with a path or without (print at the root)
+    - manage the option :
+      - d prints the file before the directory
+      - H follows the symlinks if the argument is a symlink
+      - L follows the symlinks
+      - P default behavior
+    -manage expression
+      - name
+      - type
+      - print
+      - exec
+
+Makefile
+  make all : creates the exec of the projet
+  make doc : creates and launchs the documentation with firefox
+  make test : launchs the testsuite
+  make clean : removes all the created files
