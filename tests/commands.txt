@@ -1,0 +1,36 @@
+./
+
+src/
+src
+AUTHORS
+-d
+-P src
+-P ./
+-P
+-P -d
+-L -H -P src/
+-H tests/symlink
+-H tests/
+-H -d
+-L src
+-L
+-L tests/
+-L -d
+src/ -name *.c
+src/ -name ehvbidhfoqb;
+./ -name t*
+src/ -name *.c -name *.h
+src/ -name *.c -o -name *.h
+./ -name *.c
+-name *.c
+-d -name *.c
+-L -name *.c
+src/ -name *.c -type d
+src/ -name *.c -type f
+src/ -type f
+-L tests/ -type l
+-name *.c -print
+src/ -name *.c -o -print
+src/ -print -o -name *.c
+-type f -a -a -type f
+-exec -- {} --
